@@ -1,0 +1,12 @@
+{
+  "checkInteractByAction": "False",
+  "chk_read_notify": "False",
+  "check_viewStory": "False",
+  "chk_acceptFriend": "False",
+  "check_viewWatch": "False",
+  "checkInteractActionByJob": "False",
+  "maxActionByJob": "10",
+  "minActionByJob": "8",
+  "maxDelayInteractAction": "900",
+  "minDelayInteractAction": "600"
+}
