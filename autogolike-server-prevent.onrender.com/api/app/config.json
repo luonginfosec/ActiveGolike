@@ -1,0 +1,28 @@
+{
+	"success": true,
+	"message": "Đăng nhập thành công!",
+	"data": {
+		"user": {
+			"_id": "63be2127e950b73cf2540b25",
+			"username": "vuducluong",
+			"email": "ducluongvuit@gmail.com",
+			"fullname": "Hồ Xuân Mẫn",
+			"total_coin": 200000,
+			"current_coin": 200000,
+			"active": true,
+			"golike_accounts": [{
+				"golike_username": "hoxuanquynhanh",
+				"joined_date": "28/01/2023",
+				"expired_date": "04/02/2023",
+				"_id": "63d49d921daaeca431694cae"
+			}],
+			"logs": [{
+				"content": "Thêm Golike hoxuanquynhanh trừ -18000. Số dư: 200000",
+				"time": "2023-01-21T22:33:59.774Z"
+			}],
+			"createdAt": "2023-01-11T02:38:31.951Z",
+			"updatedAt": "2023-01-28T03:59:14.323Z"
+		},
+		"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2M2JlMjEyN2U5NTBiNzNjZjI1NDBiMjUiLCJpYXQiOjE2NzYxNzM4MDd9.J6MLveWIAee-_Mj8nrmrtPy82d1qj0D3OzHklCi6EfU"
+	}
+}

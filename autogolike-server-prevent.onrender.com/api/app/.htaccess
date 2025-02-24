@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/api/auth/login.json$
+RewriteRule ^(.*)$ https://autogolike-server.onrender.com/api/auth/login [L,R=301]
